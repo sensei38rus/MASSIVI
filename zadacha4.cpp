@@ -7,8 +7,8 @@ int main()
 	int arr[10];
 	
 	cout << "Enter the array\n";
-	for (int i = 0; i < sizeof(arr)/4; i++) {
-		cin >> arr[i];
+	for (int i = 0; i < sizeof(arr)/4; i++) { //Ввод через пробел
+		cin >> arr[i]; 
 	}
 	
 	
