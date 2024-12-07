@@ -6,11 +6,11 @@ int main()
 	int x[6];
 	int y[6];
 	cout << "Enter array X:\n";
-	for (int i = 0; i < sizeof(x) / 4; i++) { //Ввод через пробел
+	for (int i = 0; i < sizeof(x) / 4; i++) { //Ввод через enter
 		cin >> x[i];
 	}
 	cout << "Enter array Y:\n";
-	for (int i = 0; i < sizeof(x) / 4; i++) { //Ввод через пробел
+	for (int i = 0; i < sizeof(x) / 4; i++) { //Ввод через enter
 		cin >> y[i];
 	}
 	int k;
